@@ -2,10 +2,11 @@ body {
     background-color: black;
     color: white;
     text-align: left;
+    font-family: 'Inconsolata', monospace;
 }
 
 .retro-title {
-    color: #00ff00; /* Color verde para el título */
+    /*color: #00ff00;  Color verde para el título */
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
@@ -42,11 +43,11 @@ body {
 }
 
 .retro-link:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 .retro-socials {
-    list-style-type: none;
+    /*list-style-type: none;*/
 }
 
 .retro-footer {
