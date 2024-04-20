@@ -1,0 +1,168 @@
+/* Variables globales */
+:root {
+    --primary-background: #303f9f; /* Define una variable para el color primario */
+    --font-header-color: #f8f9fa; /* Define una variable para el color de fondo */
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3 {
+    color: #3f51b5;
+}
+
+section {
+    /* background-color: #fff; */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #3f51b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #5565c0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-background);
+}
+
+.header {
+    background-color: var(--primary-background);
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.tab {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color 0.3s;
+}
+
+/* Index styles */
+.welcomeTitle {
+    text-align: center;
+}
+
+.welcomeText {
+    text-align: center;
+}
+
+.welcome-box {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.typewriter-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(40) forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Index about me */
+.content-about {
+    margin-right: 220px;
+}
+
+.content-about h1 {
+    margin: 2% 0% 0% 2%;
+}
+
+.description {
+    display: flex;
+}
+
+.description img {
+    margin: 2%;
+    border: 2px solid var(--primary-background);
+    max-width: 10%;
+    height: 10%;
+}
+
+.description p {
+    font-size: 20px;
+    margin: 2%;
+}
+
+.extra-info-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: var(--primary-background);
+    overflow-y: auto;
+    color: #fff;
+}
+
+.extra-info-sidebar section h1 {
+    color: #fff;  
+}
+
+.extra-info-sidebar section article a {
+    color: #fff;  
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+table caption {
+    /* caption-side: bottom; */
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-background);
+    color: var(--font-header-color);
+}
